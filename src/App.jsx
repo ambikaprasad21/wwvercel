@@ -9,7 +9,7 @@ import { Toaster } from "react-hot-toast";
 import Product from "./Pages/Product";
 import Pricing from "./Pages/Pricing";
 import Homepage from "./Pages/Homepage";
-import Pagenotfound from "./Pages/Pagenotfound";
+import PageNotFound from "./Pages/PageNotFound";
 import AppLayout from "./Pages/AppLayout";
 import Login from "./Pages/Login";
 import CityList from "./components/CityList";
@@ -53,7 +53,7 @@ function App() {
                 <Route path="countries" element={<CountryList />} />
                 <Route path="form" element={<Form />} />
               </Route>
-              <Route path="*" element={<Pagenotfound />} />
+              <Route path="*" element={<PageNotFound />} />
             </Routes>
           </BrowserRouter>
         </CitiesProvider>
