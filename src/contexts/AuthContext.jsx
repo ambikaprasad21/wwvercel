@@ -3,6 +3,7 @@ import toast from "react-hot-toast";
 // import { API } from "../../constants";
 const API = import.meta.env.VITE_API;
 
+console.log(API);
 const AuthContext = createContext();
 
 const initialState = {
